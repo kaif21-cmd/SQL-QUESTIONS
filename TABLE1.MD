@@ -26,6 +26,21 @@ mysql> select *from products;
 |  103 | Product Z |    200 |            3 |
 |  104 | Product W | 120.75 |            1 |
 +------+-----------+--------+--------------+
+
+2. Select the names and the prices of all the products in the store.
+
+mysql> select name,price from products;
+
++-----------+--------+
+| name      | price  |
++-----------+--------+
+| Product X |  99.99 |
+| Product Y |  149.5 |
+| Product Z |    200 |
+| Product W | 120.75 |
++-----------+--------+
+
+
 ```jsx
 
 
